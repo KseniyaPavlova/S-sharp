@@ -67,7 +67,7 @@ namespace Homework2_array_string
             Console.WriteLine("Сумма четных элементов массива А {0}", Aeven);
             Console.WriteLine("Сумма нечетных столбцов массива B {0}", Buneven);
 #endif
-            #if TASK2
+#if TASK2
             int stroka = 3, stolbec = 3;
 
             int[,] A = new int[stroka, stolbec];
@@ -82,7 +82,7 @@ namespace Homework2_array_string
             {
                 for (int j = 0; j < stolbec; j++)
                 {
-                    A[i, j] = random.Next(-10, 30);
+                    A[i, j] = random.Next(-100, 100);
                     Console.Write("{0,4}", A[i, j]);
                 }
                 Console.WriteLine();
@@ -144,7 +144,7 @@ namespace Homework2_array_string
             Console.WriteLine('\n' + sum + '\n');
 
             Console.WriteLine("Мин эл: " + min + "\nМакс эл: " + max + '\n');
-            #endif
+#endif
 #if TASK4
             int m = 3;
             int n = 3;

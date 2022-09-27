@@ -73,27 +73,12 @@ namespace Homework_3
                 Console.Write("Введите путь к сайту:"); string addres = Console.ReadLine();
                 Console.Write("Введите описание сайта:"); string description = Console.ReadLine();
                 Console.Write("Введите IP адрес сайта:"); string IP = Console.ReadLine();
-                //Console.Write("Введите эл.почту магазина:"); string email = Console.ReadLine();
-                //Console.Write("Введите площадь магазина:"); int area = Int32.Parse(Console.ReadLine());
 
-                Console.WriteLine("Название магазина: " + name+ "\nпуть к сайту: " + addres + "\nописание сайта:" + description + "\nIP адрес сайта: " + IP);
+                Console.WriteLine("Название магазина: " + name+ "\nПуть к сайту: " + addres + "\nОписание сайта:" + description + "\nIP адрес сайта: " + IP);
                 return web;
             }
-            //public override string ToString()
-            //{
-            //    return " Магазин: " + Name + ";\n Адресс: " + Address + ";\n Профиль магазина: " + ProfShop + ";\n Номер телефона: " + PhoneNumb + ";\n Адресс эл.почты: " + EmailShop + ";\n Площадь: " + Shoparea.ToString() + " квадратных метров";
-            //}
-            //public void GetShopInfo()
-            //{
-            //    Console.WriteLine(ToString());
-            //}
+          
         }
     }
 }
 
-//дание 4
-//Создайте класс «Веб-сайт». Необходимо хранить в
-//полях класса: название сайта, путь к сайту, описание
-//сайта, ip адрес сайта.Реализуйте методы класса для ввода
-//данных, вывода данных, реализуйте доступ к отдельным
-//полям через методы класса. 
